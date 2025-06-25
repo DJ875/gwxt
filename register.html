@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册 - 商城系统</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="login-left">
+                <img src="images/login-character.jpg.png" alt="欢迎光临" class="character-image">
+            </div>
+            <div class="login-right">
+                <h1>注册账号</h1>
+                <form class="login-form" id="registerForm">
+                    <div class="form-group">
+                        <input type="text" id="username" placeholder="用户名" required>
+                        <div class="error-message" id="usernameError"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="password" placeholder="密码" required>
+                        <div class="error-message" id="passwordError"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="confirmPassword" placeholder="请再次输入密码" required>
+                        <div class="error-message" id="confirmPasswordError"></div>
+                    </div>
+                    <button type="submit" class="login-button">注册</button>
+                    <div class="additional-links">
+                        <a href="index.html" class="back-to-login">返回登录</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/register.js"></script>
+</body>
+</html> 
